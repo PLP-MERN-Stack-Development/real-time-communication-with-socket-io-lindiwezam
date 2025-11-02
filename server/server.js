@@ -9,6 +9,7 @@ const path = require('path');
 
 // Load environment variables
 dotenv.config();
+connectDB();
 
 // Initialize Express app
 const app = express();
